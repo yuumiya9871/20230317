@@ -1,0 +1,374 @@
+.logo-box {
+  position: fixed;
+  width: 100%;
+  height: 129.883px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #ffff;
+  z-index: 1000;
+  font-family: 'Questrial', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+.logo {
+  text-align: center;
+  font-size: 36px;
+  margin: auto;
+  width: 960px;
+  height: 43.195px;
+}
+
+.logo-text {
+  text-align: center;
+  font-size: 13px;
+}
+
+.top-menu {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 1.5em 0 0;
+}
+
+.nav_1 {
+  font-size: 15px;
+  padding: 0.3em 0.5em;
+  margin: 0 0 0 2px;
+}
+
+.image {
+  width: 1440px;
+}
+
+.main-image {
+  position: relative;
+  left: 0px;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 26px;
+  color: #ffff;
+  transform: translate(-50%, -50%);
+}
+
+.center-text-inner {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+}
+
+.image-text {
+  margin-top: 1.5em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.image-text-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.info {
+  margin: 3.1em 0 0;
+  padding: 0 0 3.1em;
+  border-top: 1px dotted #a9a9a9;
+}
+
+.info-logo {
+  position: relative;
+  top: -0.5em;
+  width: 153.992px;
+  margin: 0 auto 2em;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 1em;
+  background-color: #ffff;
+}
+
+.info-image {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  display: block;
+}
+
+.info-image-inner {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin: 0 -140px 0 0;
+  border-radius: 3px;
+}
+
+.info-largebox {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.info-box {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.info-box1 {
+  display: flex;
+  width: 33%;
+  min-width: 300px;
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+.info-box2 {
+  display: flex;
+  width: 33%;
+  min-width: 300px;
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+.info-last-text {
+  margin: 10px 0 -22px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.photo {
+  margin: 3.1em 0 0;
+  padding: 0 0 3.1em;
+  border-top: 1px dotted #a9a9a9;
+}
+
+.photo-box {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.photo-logo {
+  position: relative;
+  top: -0.5em;
+  width: 153.992px;
+  margin: 0 auto 2em;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 1em;
+  background-color: #ffff;
+}
+
+.photo-image {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.photo-image-box {
+  width: 184px;
+  height: 184px;
+  margin-left: 10px;
+}
+
+.photo-last-text {
+  margin: 10px 0 -22px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.access {
+  margin: 3.1em 0 0;
+  padding: 0 0 3.1em;
+  border-top: 1px dotted #a9a9a9;
+}
+
+.access-logo {
+  position: relative;
+  top: -0.5em;
+  width: 153.992px;
+  margin: 0 auto 2em;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 1em;
+  background-color: #ffff;
+}
+
+.map-image {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+}
+
+table {
+  width: 624px;
+  margin: 0 auto;
+  display: table;
+  border-color: grey;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+th {
+  width: 185px;
+  display: table-cell;
+  padding: 1em;
+  border: 1px dotted #a9a9a9;
+  border-bottom: none;
+  border-left: none;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+td {
+  width: 373px;
+  display: table-cell;
+  padding: 1em;
+  border: 1px dotted #a9a9a9;
+  border-bottom: none;
+  border-left: none;
+  font-size: 16px;
+  line-height: 1.6;
+  border-right: none;
+  font-family: 'Questrial', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+}
+
+tr:first-child th {
+  border-top: none;
+}
+
+tr:first-child td{
+  border-top: none;
+  border-right: none;
+}
+
+.contact {
+  margin: 3.1em 0 0;
+  padding: 0 0 3.1em;
+  border-top: 1px dotted #a9a9a9;
+}
+
+.contact-logo {
+  position: relative;
+  top: -0.5em;
+  width: 153.992px;
+  margin: 0 auto 2em;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 1em;
+  background-color: #ffff;
+}
+
+.form-box {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact-area {
+  margin-top: 2em;
+}
+
+label {
+  font-size: 18px;
+}
+
+.requier {
+  color: #993737;
+}
+
+input {
+  border: 1px solid #e4e2e1;
+  border-color: #dcdbdb;
+  width: 100%;
+  padding: 8px;
+}
+
+textarea {
+  border: 1px solid #e4e2e1;
+  width: 100%;
+  height: 180px;
+  padding: 5px;
+  line-height: 1.6;
+}
+
+.button {
+  margin: 1em 0 0;
+  padding: 18px 10px;
+  border: none;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  margin: 50px 0 0;
+  padding: 0;
+  border-top: 1px dotted #a9a9a9;
+  text-align: center;
+}
+
+.footer-box {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0 70px;
+}
+
+.icon-box {
+  display: block;
+  font-size: 29px;
+  line-height: 1;
+  padding: 0.3em;
+}
+
+.footer-logo {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0.3em 0.2em;
+}
+
+.footer-logo-inner {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  font-size: 16px;
+}
